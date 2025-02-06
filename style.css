@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 3000px;
+    width: 1895px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    margin-left: 200px;
+    gap: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar .MA{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 350px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C {
+    margin-right: 350px;
+}
+
+.navbar .F{
+    color: darkgrey;
+}
+.navbar .P{
+    color: darkgrey;
+}
+.navbar .S{
+    color: darkgrey;
+}
+.navbar .Pl{
+    color: darkgrey;
+}
+
+.MA:hover{
+  background-color: gainsboro;
+}
+
+.hero{
+    padding: 10px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Text{
+    display: grid;
+    width: 430px;
+}
+
+.Link180{
+    background-color: rgb(195, 177, 225);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    width: 210px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h1Fett{
+    font-weight: 900;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pGrau{
+    color: grey;
+    margin-top: 20px;
+}
+
+.Bblau{
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.Bgrau{
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.paymentBild{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid whitesmoke 20px;
+    margin-left: 100px;
+}
+
+.gl {
+  font-weight: 900;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pLorem{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  margin-top: 10px;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: running;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+
+  @keyframes slide2 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  .logos2 {
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: running;
+  }
+
+  .logos-slide2 {
+    display: inline-block;
+    animation: 35s slide2  infinite linear;
+  }
+  
+  .logos-slide2 img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+.Top{
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 35px
+}
+.Flop{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 35px
+}
+
+.hpb{
+  background-color: white;
+  display: grid;
+  margin-top: 50px;
+  color: whitesmoke;
+  width: 1200px;
+  height: 100px;
+  margin-left: 350px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: black solid 1px;
+  border-radius: 15px;
+}
+
+.hpb h1{
+  font-size: 30px;
+}
+
+.hpb p{
+  color: grey;
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+.hpb button{
+  background-color: darkgray;
+  color: gray;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 1110px;
+  margin-top: -40px;
+}
+
+.Features{
+  background-color: white;
+  border: black solid 1px;
+  width: 1200px;
+  height: 590px;
+  margin-left: 350px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+}
+
+.Features h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.goodfb{
+  border-radius: 15px;
+  border: black solid 1px;
+  width: 600px;
+  height: 250px;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+
+.offdoc{
+  border-radius: 15px;
+  border: black solid 1px;
+  width: 600px;
+  height: 250px;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+
+.SameP{
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.LM {
+  margin-top: 30px;
+  text-decoration: none;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.NC{
+  border: black solid 1px;
+  display: flex;
+  width: 500px;
+  height: 150px;
+  margin-left: 650px;
+  margin-top: -540px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.PM{
+  border: black solid 1px;
+  display: flex;
+  width: 500px;
+  height: 150px;
+  margin-left: 650px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.ALY{
+  border: black solid 1px;
+  display: flex;
+  width: 500px;
+  height: 150px;
+  margin-left: 650px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.samePbbb{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: 12px;
+  color: gray;
+  margin-top: 70px;
+  margin-left: -130px;
+}
+
+.bpSAME{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: 12px;
+  color: gray;
+  margin-top: 50px;
+  margin-left: -125px;
+}
+
+.sameBp{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: 12px;
+  color: gray;
+  margin-top: 50px;
+  margin-left: -120px;
+}
+
+.heroIcons{
+  width: 65px;
+  height: 65px;
+}
+
+.LogIn{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 80px;
+}
+
+.LogInSec{
+  display: flex;
+  width: 1200px;
+  height: 500px;
+}
+
+.logInBook{
+  width: 600px;
+  height: 700px;
+  border: black solid 1px;
+}
+
+.uesl{
+  text-align: center;
+}
+
+.SignUp{
+  border: black solid 1px;
+  width: 600px;
+  height: 700px;
+}
+
+.usernamE{
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.emaiL{
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.psswrD{
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.cfmpswD{
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.suB{
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  width: 300px;
+  height: 40px;
+  background-color: blue;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.hr{
+  color: whitesmoke
+}
+
+.googleIcon{
+  width: 25px;
+  height: 25px;
+  margin-right: 240px;
+  margin-top: -5px;
+}
+
+.liwgoogle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.loginWitGoogle{
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
